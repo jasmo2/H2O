@@ -1,0 +1,40 @@
+{
+  "name": "h2o",
+  "version": "1.0.0",
+  "description": "intagram web scraper from specific profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jasmo2/H2O.git"
+  },
+  "keywords": [
+    "instagram",
+    "web",
+    "scraping"
+  ],
+  "author": "jasmo2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasmo2/H2O/issues"
+  },
+  "devDependencies": {
+    "prettier": "1.10.2",
+    "prettierrc": "0.0.0-5",
+    "ts-node": "4.1.0",
+    "typescript": "2.6.2",
+    "yarn": "^0.24.5"
+  },
+  "dependencies": {
+    "@types/puppeteer": "0.13.9",
+    "@types/yargs": "10.0.1",
+    "image-downloader": "3.3.0",
+    "mkdirp-promise": "5.0.1",
+    "puppeteer": "1.0.0",
+    "tslib": "1.8.1",
+    "yargs": "10.1.1"
+  },
+  "homepage": "https://github.com/jasmo2/H2O#readme"
+}
