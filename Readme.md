@@ -1,0 +1,2 @@
+## Instalation
+npm install

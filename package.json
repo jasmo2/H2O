@@ -30,14 +30,7 @@
     "standard": "^10.0.2"
   },
   "dependencies": {
-    "@types/puppeteer": "0.13.9",
-    "@types/yargs": "10.0.1",
-    "image-downloader": "3.3.0",
-    "mkdirp-promise": "5.0.1",
-    "phantom": "^4.0.12",
-    "puppeteer": "1.0.0",
-    "tslib": "1.8.1",
-    "yargs": "10.1.1"
+    "casperjs": "^1.1.4"
   },
   "homepage": "https://github.com/jasmo2/H2O#readme"
 }
