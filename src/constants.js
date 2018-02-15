@@ -1,5 +1,4 @@
 module.exports = {
-    INSTAGRAM_URL: 'https://www.instagram.com/',
-    LOGIN_FORM: '_3jvtb',
-    LOGIN_LINK: '_g9ean'
+    URL: 'http://www.addictbybosi.com/catalogo-addict-by-bosi/adt-motowear/mas-recientes/1',
+    PHOTOS_CLASS: 'box_rgba_addict'
 }

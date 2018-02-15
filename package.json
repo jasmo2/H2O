@@ -15,7 +15,6 @@
     "url": "git+ssh://git@github.com/jasmo2/H2O.git"
   },
   "keywords": [
-    "instagram",
     "web",
     "scraping"
   ],
@@ -24,13 +23,11 @@
   "bugs": {
     "url": "https://github.com/jasmo2/H2O/issues"
   },
-  "devDependencies": {
-    "prettier": "1.10.2",
-    "prettierrc": "0.0.0-5",
-    "standard": "^10.0.2"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "casperjs": "^1.1.4"
+    "casperjs": "^1.1.4",
+    "mkdirp-promise": "^5.0.1",
+    "puppeteer": "^1.0.0"
   },
   "homepage": "https://github.com/jasmo2/H2O#readme"
 }
