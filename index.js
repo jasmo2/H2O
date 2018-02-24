@@ -1,16 +1,18 @@
 const puppeteer = require('puppeteer')
-
-const CONSTANTS = require('./src/constants')
-
-// const platform = require('./src/platform')
-const {URL, PHOTOS_CLASS}  = CONSTANTS
+const ImageCollector = require('./src/ImageCollector')
+// import ImageCollector from './src/ImageCollector'
+const { URL }  = require('./src/constants')
 
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto(URL);
-  await page.screenshot({path: 'example.png'});
+async function main () {
+  const browser = await puppeteer.launch({
+    args: ['--disable-dev-shm-usage']
+  })
+  const page = await browser.newPage()
+  await page.goto(URL)
+  const imageCollector = new ImageCollector({page})
+  await imageCollector.getImages()
+  await browser.close()
+}
 
-  await browser.close();
-})();
+main()
