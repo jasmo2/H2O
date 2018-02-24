@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "intagram web scraper from specific profiles",
   "engines": {
-    "node": "8.9.4",
+    "node": "9.5.0",
     "npm": "5.6.0"
   },
   "main": "index.js",
@@ -25,9 +25,9 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "casperjs": "^1.1.4",
+    "image-downloader": "3.3.0",
     "mkdirp-promise": "^5.0.1",
-    "puppeteer": "^1.0.0"
+    "puppeteer": "^1.1.1"
   },
   "homepage": "https://github.com/jasmo2/H2O#readme"
 }
