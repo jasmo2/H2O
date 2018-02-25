@@ -1,5 +1,10 @@
+const INITIAL_URL = 'http://www.addictbybosi.com/'
+const PHOTO_CLASS = '.box_rgba_addict'
 module.exports = {
-    URL: 'http://www.addictbybosi.com/catalogo-addict-by-bosi/adt-motowear/mas-recientes/1',
-    PHOTOS_CLASS: '.box_rgba_addict',
-    PHOTO_CLASS: '.box_rgba_addict'
+    DESTINATION: './DownloadedImages',
+    INITIAL_URL: INITIAL_URL,
+    PAGINATION_LINKS: '.pagination a',
+    PHOTOS_CLASS: PHOTO_CLASS,
+    PHOTO_CLASS,
+    URL: `${INITIAL_URL}catalogo-addict-by-bosi/adt-motowear/mas-recientes/1`
 }
