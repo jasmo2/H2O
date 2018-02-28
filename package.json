@@ -27,7 +27,8 @@
   "dependencies": {
     "image-downloader": "3.3.0",
     "mkdirp-promise": "^5.0.1",
-    "puppeteer": "^1.1.1"
+    "puppeteer": "^1.1.1",
+    "webp-converter": "^2.1.6"
   },
   "homepage": "https://github.com/jasmo2/H2O#readme"
 }

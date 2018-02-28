@@ -1,5 +1,6 @@
 'use strict';
 const mkdirp = require('mkdirp-promise')
+const converterImages = require('../converter-images')
 const downloadImages = require('../download-images')
 const getPercentaje = require('../utils')
 
@@ -25,6 +26,16 @@ module.exports = class ImageCollector {
       links.map(link => link.href)
     )
     return paginationLinks
+  }
+
+  async convertImages() {
+    try {
+      console.log('converting images ...', converterImages)
+      await converterImages(DESTINATION)
+      console.log('Done!!! Enjoy!!! 🤡')
+    } catch (err) {
+      console.error(err)
+    }
   }
 
   async getImages() {
